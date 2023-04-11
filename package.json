@@ -2,12 +2,15 @@
   "name": "yangyangmed",
   "version": "0.0.0",
   "private": true,
+  "homepage":"https://jerryshen26.github.io/yangyangmed/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
