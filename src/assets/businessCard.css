@@ -55,5 +55,14 @@
     font-size: 18px;
     margin-left:10px;
     color: black;
+}
 
+@media (max-width: 1024px) {
+    .yang-card-div{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
 }

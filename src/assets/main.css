@@ -32,4 +32,9 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+  @media (max-width: 1023px) {
+    #app {
+      padding: 2rem 0;
+    }
+  }
 }
