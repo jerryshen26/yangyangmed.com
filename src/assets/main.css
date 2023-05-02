@@ -3,7 +3,7 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
 
   font-weight: normal;
 }
@@ -15,6 +15,10 @@ a,
   transition: 0.4s;
 }
 
+ul li{
+  list-style: none;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
@@ -24,13 +28,12 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
-    place-items: center;
   }
 
-  #app {
+  #app main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    padding: 6rem 2rem;
   }
   @media (max-width: 1023px) {
     #app {

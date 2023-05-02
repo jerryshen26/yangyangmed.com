@@ -7,12 +7,28 @@ import sitemap from 'vite-plugin-sitemap'
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/',
-  plugins: [vue(),sitemap({
-    baseURL: 'https://yangyangmed.com',
-    sitemapFilename: 'sitemap.xml',
-    pretty: true,
-    exclude: ['/404']
-  })],
+  plugins: [
+    vue(),
+    sitemap({
+      base: 'https://yangyangmed.com',
+      filename: 'sitemap.xml',
+      hostname: 'https://yangyangmed.com',
+      routes: [
+        {
+          path: '/',
+          lastMod: new Date(),
+          priority: 1.0,
+          changefreq: 'daily'
+        },
+        {
+          path: '/index',
+          lastMod: new Date(),
+          priority: 0.8,
+          changefreq: 'daily'
+        }
+      ]
+    })
+  ],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
