@@ -9,6 +9,7 @@ import InfoList from '../components/InfoList.vue'
             <div class="yang-logo">
                 <img src="../assets/img/yang_logo.svg" alt="">
                 <h1><span class="yang-orange">陽陽</span><span class="yang-green">儀器</span>有限公司</h1>
+                <!-- <h1><span class="yang-orange">XX</span><span class="yang-green">儀器</span>有限公司</h1> -->
             </div>
             <div class="yang-info">
                 <p class="yang-name">沈 先生</p>
@@ -53,7 +54,19 @@ import InfoList from '../components/InfoList.vue'
                         <img src="../assets/img/Location.svg" alt="">
                     </template>
                     <template #info-description>
-                        位置：基隆市
+                        公司位置：基隆市
+                    </template>
+                </InfoList>
+
+                <InfoList>
+                    <template #info-icon>
+                        <img src="../assets/img/Location.svg" alt="">
+                    </template>
+                    <template #info-description>
+                        <span>服務區域：</span>
+                        <span>
+                            我們全台灣提供服務，包括台北、台中、台南等地區
+                        </span>
                     </template>
                 </InfoList>
 
@@ -81,7 +94,6 @@ import InfoList from '../components/InfoList.vue'
 }
 
 .yang-logo h1{
-    color: black;
     display: inline-block;
     vertical-align: middle;
     font-size: 32px;
@@ -94,9 +106,6 @@ import InfoList from '../components/InfoList.vue'
     color: #22B573;
 }
 
-.yang-info{
-    color: black;
-}
 
 .yang-name{
     font-size: 24px;

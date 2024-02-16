@@ -1,11 +1,9 @@
 .yang-card-div{
-    background: #fff;
-    width: 600px;
-    height: 400px;
+    width: 620px;
+    height: 455px;
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 3px 1px #00000030;
 }
 
 .yang-first{
@@ -54,7 +52,6 @@
     vertical-align: middle;
     font-size: 18px;
     margin-left:10px;
-    color: black;
 }
 
 @media (max-width: 1024px) {
