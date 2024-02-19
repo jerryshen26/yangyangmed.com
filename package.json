@@ -1,0 +1,27 @@
+{
+  "name": "yangyangmed",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://jerryshen26.github.io/yangyangmed.com/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "gh-pages": "^5.0.0",
+    "vite-plugin-sitemap": "^0.3.0",
+    "vue": "^3.4.19",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2",
+    "vite": "^4.5.2"
+  }
+}
