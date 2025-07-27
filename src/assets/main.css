@@ -40,7 +40,7 @@ ul li{
   #app main .yang-home{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5rem 2rem;
+    padding: 6rem 2rem;
   }
   @media (max-width: 1023px) {
     #app .yang-home{
