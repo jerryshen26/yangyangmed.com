@@ -60,8 +60,17 @@ import CardLater from '../components/BusinessCardLater.vue'
   margin: 1em auto;
 }
 
-@media (min-width: 1024px) {
+.yang-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+@media (min-width: 1024px) {
+  .yang-right {
+    align-items: flex-start;
+  }
 }
 
 </style>
