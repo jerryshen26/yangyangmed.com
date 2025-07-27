@@ -1,8 +1,9 @@
 <script setup>
 // import HelloWorld from './components/HelloWorld.vue'
 // import TheWelcome from './components/TheWelcome.vue'
-import CardFront from './components/BusinessCardFront.vue'
-import CardLater from './components/BusinessCardLater.vue'
+
+import NavHeader from './components/NavHeader.vue'
+
 </script>
 
 <!-- <template>
@@ -22,54 +23,20 @@ import CardLater from './components/BusinessCardLater.vue'
 
 <template>
   <header>
-    <img class="logo" src="./assets/img/yang_logo.svg" width="125" height="125" alt="">
-    <h1><span class="yang-orange">陽陽</span><span class="yang-green">儀器</span></h1>
-    <h3>
-      全新網站建置中，敬請期待<br>
-      如有需求請先來電詢問！
-    </h3>
+    <NavHeader/>
   </header>
-  <main>
-    <CardFront/>
-    <CardLater/>
-  </main>  
+  <div class="yang-body">
+    <RouterView />
+  </div>
 </template>
 
-<style scoped>
-
-header {
-  line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;  
-}
-
-.logo {
+<style>
+.yang-body{
+  position: relative;
+  width: 100%;
   display: block;
-  margin: 1em auto;
-}
-
-header h1{
-    color: black;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 32px;
-}
-
-header h1>.yang-orange{
-    color: #FF7E3E;
-}
-header h1>.yang-green{
-    color: #22B573;
-}
-
-header h3{
-  margin: 1em auto;
-}
-
-@media (min-width: 1024px) {
-
+  padding-top: 69px;
 }
 
 </style>
+
