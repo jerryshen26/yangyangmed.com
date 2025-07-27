@@ -23,5 +23,17 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.6.2",
     "vite": "^4.5.2"
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerryshen26/yangyangmed.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerryshen26/yangyangmed.github.io/issues"
   }
 }
