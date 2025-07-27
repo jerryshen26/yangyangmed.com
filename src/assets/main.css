@@ -1,13 +1,10 @@
 @import './base.css';
 
-#app{
-  width: 100%;
-}
-
-#app .yang-home{
+#app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 2rem;
+
   font-weight: normal;
 }
 
@@ -16,14 +13,6 @@ a,
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
-}
-
-ul li{
-  list-style: none;
-}
-
-#app main{
-  margin: auto;
 }
 
 @media (hover: hover) {
@@ -35,16 +24,12 @@ ul li{
 @media (min-width: 1024px) {
   body {
     display: flex;
+    place-items: center;
   }
 
-  #app main .yang-home{
+  #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5rem 2rem;
-  }
-  @media (max-width: 1023px) {
-    #app .yang-home{
-      padding: 2rem 0;
-    }
+    padding: 0 2rem;
   }
 }

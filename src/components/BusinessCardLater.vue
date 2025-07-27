@@ -18,7 +18,7 @@ import ProductItem from "../components/ProductItem.vue"
 
             <ProductItem>
                 <template #productTitle>
-                    <h3>醫療耗材批發</h3>
+                    <h3>電療貼片(耗材)</h3>
                 </template>
                 <template #productInfo>
                     <p>插式/釦式 電療貼片</p>
@@ -46,6 +46,7 @@ h3{
     font-weight: bold;
 }
 p{
+    color: black;
     font-size: 16px;
 }
 </style>
