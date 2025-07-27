@@ -12,7 +12,7 @@ import InfoList from '../components/InfoList.vue'
                 <!-- <h1><span class="yang-orange">XX</span><span class="yang-green">儀器</span>有限公司</h1> -->
             </div>
             <div class="yang-info">
-                <p class="yang-name">沈 先生</p>
+                <p class="yang-name">王 先生</p>
                 <hr class="yang-hr">
                 <InfoList>
                     <template #info-icon>
