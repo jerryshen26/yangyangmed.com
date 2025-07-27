@@ -2,7 +2,7 @@
   "name": "yangyangmed",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://yangyangmed.com/",
+  "homepage": "https://jerryshen26.github.io/yangyangmed.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
