@@ -1,3 +1,20 @@
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  document.title = '使用場景 - 專業復健與居家護理解決方案 | 陽陽儀器'
+  
+  let metaDesc = document.querySelector('meta[name="description"]')
+  if (metaDesc) {
+    metaDesc.content = '陽陽儀器電療設備適用於醫院復健科、診所物理治療、居家護理、運動傷害復健等多種場景。專業電療機提供有效治療方案，滿足不同使用需求。'
+  }
+  
+  let metaKeys = document.querySelector('meta[name="keywords"]')
+  if (metaKeys) {
+    metaKeys.content = '復健治療, 居家護理, 運動傷害, 物理治療, 電療治療, 醫院復健科, 診所治療'
+  }
+})
+</script>
 <template>
   <div class="usage-scenarios-container">
     <!-- 頁面標題 -->

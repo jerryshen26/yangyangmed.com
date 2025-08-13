@@ -1,6 +1,22 @@
 <script setup>
 import CardFront from '../components/BusinessCardFront.vue'
 import CardLater from '../components/BusinessCardLater.vue'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  document.title = '產品介紹 - 電療機器與醫療耗材專業供應 | 陽陽儀器'
+  
+  let metaDesc = document.querySelector('meta[name="description"]')
+  if (metaDesc) {
+    metaDesc.content = '陽陽儀器產品包含復健治療中頻電療器、攜帶式低週波電療器、插式釦式電療貼片、迴路電擊板、電療導線等專業醫療耗材批發供應。'
+  }
+  
+  let metaKeys = document.querySelector('meta[name="keywords"]')
+  if (metaKeys) {
+    metaKeys.content = '電療機器, 中頻電療器, 低週波電療器, 電療貼片, 電擊板, 醫療耗材批發, 電療導線'
+  }
+})
+
 </script>
 
 <template>

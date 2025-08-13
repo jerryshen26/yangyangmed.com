@@ -1,3 +1,20 @@
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  document.title = '關於我們 - 陽陽儀器有限公司 | 30年專業醫療器材經驗'
+  
+  let metaDesc = document.querySelector('meta[name="description"]')
+  if (metaDesc) {
+    metaDesc.content = '陽陽儀器成立30年來專注醫療復健與美容器材銷售，秉持「以客為尊、誠實正直」經營理念，提供專業品質保證、完善售後服務與客製化解決方案。'
+  }
+  
+  let metaKeys = document.querySelector('meta[name="keywords"]')
+  if (metaKeys) {
+    metaKeys.content = '陽陽儀器, 關於我們, 醫療器材公司, 電療設備供應商, 30年經驗, 品質保證'
+  }
+})
+</script>
 <template>
   <div class="about-page">
     <!-- 頁面標題 -->
