@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/yangyang.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>陽陽儀器 - 專業電療設備與醫療耗材批發 | 30年信賴品牌</title>
+    <title>陽陽儀器 - 專業電療設備與醫療耗材批發</title>
     <meta name="description" content="陽陽儀器提供專業電療機、中頻電療器、低週波電療器、電療貼片等醫療設備。深耕復健治療領域30年，為醫院診所及居家護理提供優質器材與服務。">
     <meta name="keywords" content="電療機, 電療貼片, 中頻電療器, 低週波電療器, 醫療器材, 復健治療, 陽陽儀器">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
     
     <!-- Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
       // MIT License
       // https://github.com/rafgraph/spa-github-pages
+      
+      // 這個腳本檢查 sessionStorage 中是否有重定向信息
+      // 如果有，就恢復原始 URL
       (function(l) {
         if (l.search[1] === '/' ) {
           var decoded = l.search.slice(1).split('&').map(function(s) { 
@@ -24,27 +28,25 @@
         }
       }(window.location))
     </script>
-    
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-    <script type="module" src="/src/main.js"></script>
   </head>
   <body>
     <div id="app"></div>
- <!-- Google tag (gtag.js) -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-WR69YPW70G"></script>
- <script>
- window.dataLayer = window.dataLayer || [];
- function gtag(){dataLayer.push(arguments);}
- gtag('js', new Date());
- gtag('config', 'G-WR69YPW70G');
-
- // Microsoft Clarity
- (function(c,l,a,r,i,t,y){
-       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-       t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-       y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-   })(window, document, "clarity", "script", "l2lywo99ss");
- </script>  
+    <script type="module" src="/src/main.js"></script>
     
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WR69YPW70G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-WR69YPW70G');
+      
+      // Microsoft Clarity
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "l2lywo99ss");
+    </script>
   </body>
 </html>
