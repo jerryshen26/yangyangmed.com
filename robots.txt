@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://yangyangmed.com/sitemap.xml
+
+# 主要頁面
+Allow: /
+Allow: /about/
+Allow: /products/
+Allow: /usage-scenarios/
+
+# 靜態資源
+Allow: /assets/
